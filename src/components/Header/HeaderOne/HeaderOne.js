@@ -22,7 +22,7 @@ const HeaderOne = () => {
              <li>Confirm: 0</li>
              <li><div class="dropdown">
   <div class="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
+  Currency
   </div>
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
     <li><a class="dropdown-item " href="#">Action</a></li>
@@ -33,7 +33,7 @@ const HeaderOne = () => {
               </li>
              <li><div class="dropdown">
   <div class="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
+Language
   </div>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
     <li><a class="dropdown-item" href="#">Action</a></li>

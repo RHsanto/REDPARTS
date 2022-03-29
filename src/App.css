@@ -165,3 +165,12 @@ list-style: square;
   text-align: center;
   font-size: 14px;
 }
+
+.m-text li{
+  font-weight: bold;
+
+  padding: 10px;
+}
+.m-text li:hover{
+  background-color: #e9ecf3;
+}
