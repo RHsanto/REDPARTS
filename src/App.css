@@ -110,3 +110,58 @@ list-style: square;
   font-size: 15px;
   line-height: normal;
 }
+
+/* Dropdown Button */
+.cursor{
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 200px;
+  margin-top: 19px;
+  margin-left: -20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: white;
+  
+}
+
+.all-city{
+ display: flex;
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+}
+.city{
+  border: 1px solid gray;
+}
+
+.city img{
+ width: 80px;
+
+}
+.other{
+  background-color: #e9ecf3;
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+  font-size: 14px;
+}
