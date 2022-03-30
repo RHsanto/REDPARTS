@@ -20,25 +20,25 @@ const HeaderOne = () => {
          <div className="col-lg-5 three">
            <ul className='d-flex align-items-center navbars'>
              <li>Confirm: 0</li>
-             <li><div class="dropdown">
-  <div class="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             <li><div className="dropdown">
+  <div className="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
   Currency
   </div>
-  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item " href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+    <li><a className="dropdown-item " href="#">Action</a></li>
+    <li><a className="dropdown-item" href="#">Another action</a></li>
+    <li><a className="dropdown-item" href="#">Something else here</a></li>
   </ul>
               </div>
               </li>
-             <li><div class="dropdown">
-  <div class="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             <li><div className="dropdown">
+  <div className="  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 Language
   </div>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a className="dropdown-item" href="#">Action</a></li>
+    <li><a className="dropdown-item" href="#">Another action</a></li>
+    <li><a className="dropdown-item" href="#">Something else here</a></li>
   </ul>
               </div>
               </li>

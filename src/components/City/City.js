@@ -11,19 +11,19 @@ import nine from '../../png-1024/jhulta-minar-155249.png'
 const City = () => {
   return (
     <div>
-      <button type="button" class="btn border" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <button type="button" className="btn border" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
     Hyderabad 
     </button>
 
 
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel"> Select a city </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="staticBackdropLabel"> Select a city </h5>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div className="modal-body">
         <p className='text-start'>POPULAR CITIES</p>
         <div className="popular-city">
           <div className="all-city">
@@ -118,8 +118,8 @@ const City = () => {
           </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         
       </div>
     </div>

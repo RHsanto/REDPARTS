@@ -1,9 +1,9 @@
 import React from 'react';
-import { BiSearchAlt2 } from "react-icons/bi";
-import { FaFacebookF } from "react-icons/fa";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
+// import { BiSearchAlt2 } from "react-icons/bi";
+// import { FaFacebookF } from "react-icons/fa";
+// import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiFillYoutube } from "react-icons/ai";
+// import { AiOutlineTwitter } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
@@ -13,9 +13,9 @@ const Sidebar = () => {
 
       <div className="sidebar my-5 px-4">
         {/* here search */}
-        <form class="d-flex border shadow ">
-      <input class="form-control " id="search"  type="search" placeholder='Blog search..' aria-label="Search"/>
-      <div class="btn s-btn fs-5" type="submit"><BiSearchAlt2/></div>
+        <form className="d-flex border shadow ">
+      <input className="form-control " id="search"  type="search" placeholder='Blog search..' aria-label="Search"/>
+      {/* <div className="btn s-btn fs-5" type="submit"><BiSearchAlt2/></div> */}
         </form>
         {/* here card */}
         <div className="about text-start my-5 shadow-lg p-4">
@@ -27,11 +27,11 @@ const Sidebar = () => {
             sem vitae neque. Quisque id sodales libero.</p>
 
             <ul className='d-flex justify-content-start p-0'>
-              <li className='s-icons bg-primary text-light'><FaFacebookF/></li>
+              {/* <li className='s-icons bg-primary text-light'><FaFacebookF/></li>
               <li className='s-icons instra'><AiOutlineInstagram/></li>
               <li className='s-icons bg-danger text-light'><AiFillYoutube/></li>
               <li className='s-icons bg-info text-light'><AiOutlineTwitter/></li>
-             
+              */}
             </ul>
         </div>
          

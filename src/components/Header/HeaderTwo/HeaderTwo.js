@@ -1,8 +1,8 @@
 import React from 'react';
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { FaRegHeart } from "react-icons/fa";
-import { AiOutlineUser } from "react-icons/ai";
-import { AiOutlineBars } from "react-icons/ai";
+// import { AiOutlineShoppingCart } from "react-icons/ai";
+// import { FaRegHeart } from "react-icons/fa";
+// import { AiOutlineUser } from "react-icons/ai";
+// import { AiOutlineBars } from "react-icons/ai";
 import City from '../../City/City';
 
 
@@ -14,7 +14,7 @@ const HeaderTwo = () => {
           <div className="col-lg-5 d-flex align-items-center">
             <ul className=' d-flex menu align-items-center'>
               
-              <li ><AiOutlineBars/> Menu</li>
+              {/* <li ><AiOutlineBars/> Menu</li> */}
               <li>Home</li> 
               <li>Shop</li> 
               <li >Blog</li> 
@@ -34,12 +34,12 @@ const HeaderTwo = () => {
           <div className="col-lg-5 d-flex align-items-center justify-content-center">
          
           <div className="hart fs-2 ">
-          <FaRegHeart/>
+          {/* <FaRegHeart/> */}
           </div>
           
            <div className="hello d-flex">
                <div className="icon fs-2">
-               <AiOutlineUser/>
+               {/* <AiOutlineUser/> */}
                </div>
                <div className="">
                  <small>hello Log in</small> 
@@ -48,7 +48,7 @@ const HeaderTwo = () => {
            </div>
            <div className="cart d-flex">
                <div className="cIcons fs-2">
-                <AiOutlineShoppingCart/>
+                {/* <AiOutlineShoppingCart/> */}
                </div>
                <div className="">
                  <small>Shopping cart</small> 
